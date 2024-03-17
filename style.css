@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: aliceblue;
+  background-image:url("default.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  margin-top: 30px;
+}
+
+
+.weatherForm #cityinput{
+    
+    height:25px;
+    width: 160px;
+    margin-right: 15px;
+    border-radius: 5px;
+    border-style: hidden;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.weatherForm #cityinput:hover {
+    color: white;
+    opacity: 1; 
+    
+     
+}
+
+.weatherForm #go{
+    border-radius: 5px;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 30px;
+    cursor: pointer;
+    
+}
+
+.weatherForm #go:hover {
+    color: white;
+    opacity: 1; /* Increase opacity to 100% on hover */
+     
+}
+
+
+.card{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .cityDisplay{
+    font-size: 5rem;
+    margin: 30px;
+    font-weight: 350;
+
+}
+.card .cityDisplay:hover {
+    color: black;
+    opacity: 1; /* Increase opacity to 100% on hover */
+     
+}
+.card .element:hover {
+    color: rgb(69, 68, 68);
+    opacity: 1; /* Increase opacity to 100% on hover */
+     
+}
+
+.card .error{
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(149, 42, 76);
+    font-weight: 300;
+}
